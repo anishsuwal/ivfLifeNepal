@@ -24,7 +24,7 @@ export default function Testimonials() {
                 <div className="shadow-2xl bg-white rounded-lg p-2 ">
                     <div className="shadow-lg  mt-2 border-t rounded-xl border-b p-2">
                         <p className="items-center justify-center text-center text-2xl font-semibold">Testimonials</p>
-                        <p className="items-center justify-center text-center text-xs md:text-lg font-semibold mt-5 text-indigo-500">Patient Experiences (Some words of our patients)</p>
+                        <p className="items-center justify-center text-center text-xs md:text-lg font-semibold mt-5 text-green-600">Patient Experiences (Some words of our patients)</p>
                     </div>
 
                     <div className=" bg-white rounded-xl shadow-md overflow-hidden w-full mt-2 ">

@@ -24,9 +24,9 @@ export const sendEmailx = (form, template) => {
               <h1>
                 There was an error trying to send your message. Please try again later....</h1>
             </div>
-            <div className="flex  mt-5 item-center justify-center gap-x-2 ">
+            <div className="flex  mt-10 item-center justify-center gap-x-2 ">
 
-              <button className=" border bg-green-600 rounded-full py-2 px-10 
+              <button className=" border bg-green-600 rounded-full 
               text-white shadow-2xl shadow-black hover:bg-green-300 hover:text-green-600
                 w-[129px] h-[40px] lg:h-[48px] lg:w-[225px] text-lg font-bold items-center"
                 onClick={() => {
@@ -43,7 +43,7 @@ export const sendEmailx = (form, template) => {
     confirmAlert({
       customUI: ({ onClose }) => {
         return (
-          <div className="bg-white border-2  rounded-3xl shadow-2xl p-10 lg:p-16 w-[329px] h-[283px] lg:w-[570px] lg:h-[344px]">
+          <div className="bg-white border-2  rounded-3xl shadow-2xl p-10 lg:p-16 w-[329px] h-[344px] lg:w-[570px] lg:h-[344px]">
             <div className="custom-ui text-lg lg:text-2xl text-center ">
               <h1>* Thank you for choosing us! </h1>
               <h1>
@@ -52,7 +52,7 @@ export const sendEmailx = (form, template) => {
             </div>
             <div className="flex  mt-5 item-center justify-center gap-x-2 ">
 
-              <button className=" border bg-green-600 rounded-full py-2 px-10 
+              <button className=" border bg-green-600 rounded-full 
               text-white shadow-2xl shadow-black hover:bg-green-300 hover:text-green-600
                 w-[129px] h-[40px] lg:h-[48px] lg:w-[225px] text-lg font-bold items-center"
                 onClick={() => {
