@@ -45,8 +45,8 @@ export default function Hero() {
                     <p className="md:flex hidden md:text-xs 2xl:text-lg pt-5">Before you get started, learn about what&apos;s involved
                         <br />in IVF treatment and different types of IVF cycles.</p>
                 </div>
-                <div className="flex  p-5  lg:p-10 mt-28 lg:mt-0 opacity-70 items-center justify-center  
-             bg-slate-50 ">
+                <div className="flex  p-5 m-5 md:m-0 shadow-lg lg:p-10 mt-28 lg:mt-0 opacity-70 items-center justify-center  
+             bg-white rounded-lg ">
                     <div className="flex flex-col md:items-center mb-6  w-fit    items-center justify-center text-center ">
                         <div className=" pb-5">
                             <p className="  font-bold text-lg lg:text-2xl text-red-600 ">
@@ -56,44 +56,44 @@ export default function Hero() {
                                 Get Cost and Procedure Details
                             </p>
                         </div>
-                        <form ref={form} onSubmit={sendEmail}>
-                            <div className="flex-1 shadow-lg mt-5 w-full ">
+                        <form ref={form} onSubmit={sendEmail} >
+                            <div className="flex-1  mt-5 w-full ">
                                 <input className=" border border-green-600 uppercase
                     rounded-lg w-full py-2 px-4  text-black  text-xs lg:text-sm" placeholder="Enter Your Name Here"
                                     id="name" name='name' type="text" onChange={e => setName(e.target.value)} />
                                 {
                                     fieldError && name.length == 0 ?
-                                        <p className="  text-red-600 font-semibold text-xs ">*Name Cannot Be Empty</p>
+                                        <p className=" mt-2 text-red-600 font-semibold text-xs ">*Name Cannot Be Empty</p>
                                         : ""
                                 }
                             </div>
-                            <div className="flex-1 shadow-lg mt-5  w-full">
+                            <div className="flex-1  mt-5  w-full">
                                 <input className=" border border-green-600 
                     rounded-lg  w-full py-2 px-4  text-black  text-xs lg:text-sm" placeholder="Please Enter Valid Email Address"
                                     id="email" name='email' type="text" onChange={e => setEmail(e.target.value)} />
                                 {
                                     fieldError && !email.includes('@') ?
-                                        <p className="  text-red-600 font-semibold text-xs ">*Enter The Valid Email Address</p>
+                                        <p className=" mt-2 text-red-600 font-semibold text-xs ">*Enter The Valid Email Address</p>
                                         : ""
                                 }
                             </div>
-                            <div className="flex-1 shadow-lg mt-5  w-full">
+                            <div className="flex-1 mt-5  w-full">
                                 <input className=" border border-green-600 
                     rounded-lg  w-full py-2 px-4  text-black text-xs lg:text-sm " placeholder=" Country Code + Contact Number"
                                     id="number" name='phnumber' type="number" onChange={e => setPhnumber(e.target.value)} />
                                 {
                                     fieldError && phnumber.length == 0 ?
-                                        <p className="  text-red-600 font-semibold text-xs ">*Phone Number Cannot Be Empty</p>
+                                        <p className=" mt-2 text-red-600 font-semibold text-xs ">*Phone Number Cannot Be Empty</p>
                                         : ""
                                 }
                             </div>
-                            <div className="flex-1 shadow-lg mt-5  w-full">
+                            <div className="flex-1  mt-5  w-full">
                                 <textarea className=" border border-green-600 
                     rounded-lg  w-full py-2 px-4  text-black  text-xs lg:text-sm" placeholder="Enter Your Message Here"
                                     id="message" name='message' type="text" onChange={e => setMessage(e.target.value)} />
                                 {
                                     fieldError && message.length == 0 ?
-                                        <p className="  text-red-600 font-semibold text-xs ">*Message Cannot Be Empty</p>
+                                        <p className=" mt-2 text-red-600 font-semibold text-xs ">*Message Cannot Be Empty</p>
                                         : ""
                                 }
                             </div>
