@@ -31,6 +31,7 @@ export default function Home() {
         <Ivfdetails />
         <Testimonials />
         <Calculate />
+        <Videos />
         <ContactUs />
         <Footer />
       </div>
