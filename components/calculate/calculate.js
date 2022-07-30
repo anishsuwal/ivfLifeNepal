@@ -74,7 +74,7 @@ export default function Calculate() {
     };
     return (
 
-        <section id="calculate" className="scroll-my-[270px] md:scroll-my-[200px]">
+        <section id="calculate" className="scroll-my-[130px] md:scroll-my-[200px]">
             <div className="justify-center items-center  text-bold px-5 xl:m-32 mt-10 ">
                 <div className="  p-3 md:mt-10  items-center justify-center text-center ">
                     <p className="text-xl md:text-2xl font-bold text-green-600">Your IVF Success Estimator</p>

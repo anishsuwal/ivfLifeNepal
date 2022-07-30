@@ -14,7 +14,7 @@ export default function Videos() {
 
 
   return (
-    <section id="videos" className="scroll-my-[270px] md:scroll-my-[200px]">
+    <section id="videos" className="scroll-my-[130px] md:scroll-my-[200px]">
       <div className="text-center mt-10 m-5  xl:m-32 ">
         <div className="text-center  ">
           <p className="text-xl md:text-2xl font-bold text-green-600"> Videos</p>

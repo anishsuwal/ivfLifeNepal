@@ -42,7 +42,7 @@ export default function ContactUs() {
 
 
     return (
-        <section id="contactus-id" className="scroll-my-[270px] md:scroll-my-[200px]">
+        <section id="contactus-id" className="scroll-my-[130px] md:scroll-my-[200px]">
             <div className="justify-center items-center  text-bold px-5 xl:m-32 mt-10 ">
 
                 <div className="text-center">
@@ -50,7 +50,7 @@ export default function ContactUs() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-20 justify-between 
-            text-xs lg:text-sm  md:pl-10  mt-5 border-t p-10 shadow-2xl bg-white rounded-lg text-center">
+            text-xs lg:text-sm  md:pl-10  mt-5 border-t p-5 shadow-2xl bg-white rounded-lg text-center">
                     <div >
                         <p className="font-semibold text-lg">
                             About the Clinic

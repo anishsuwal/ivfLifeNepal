@@ -10,7 +10,7 @@ export default function Testimonials() {
 
     return (
 
-        <section id="testimonials" className="scroll-my-[270px] md:scroll-my-[200px]">
+        <section id="testimonials" className="scroll-my-[130px] md:scroll-my-[200px]">
             <div className="flex flex-col px-5 xl:m-32 mt-10 text-bold ">
 
                 <div className="  p-5  text-center  ">

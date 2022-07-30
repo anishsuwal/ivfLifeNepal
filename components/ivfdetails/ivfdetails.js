@@ -13,20 +13,20 @@ import Image from "next/image"
 export default function Ivfdetails() {
     return (
 
-        <section id="understandingivf" className="scroll-my-[270px] md:scroll-my-[200px]">
+        <section id="understandingivf" className="scroll-my-[130px] md:scroll-my-[200px]">
             <div className="xl:m-32 mt-10">
                 <div className="text-center  ">
                     <p className="text-xl md:text-2xl font-bold text-green-600"> Understanding IVF</p>
                 </div>
-                <div className="flex flex-col px-10  bg-white shadow-2xl rounded-lg m-5  p-5">
+                <div className="flex flex-col md:px-10  bg-white shadow-2xl rounded-lg m-5  md:p-5 p-2">
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
-         open:shadow-lg p-6 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
+         open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
                         <summary className="leading-6 text-slate-900 dark:text-white font-semibold  
                 text-xs md:text-sm lg:text-xl select-none hover:text-green-600  cursor-pointer transition-all duration-1000 
                 overflow-hidden ">
                             What is IVF?
                         </summary>
-                        <div className="mt-5  text-xs md:text-sm  leading-6  text-justify shadow-lg p-5 ring-1 rounded-lg">
+                        <div className="mt-5  text-xs md:text-sm leading-6  text-justify shadow-lg p-5 ring-1 rounded-lg">
                             <p>IVF (in vitro fertilisation) treatment is the most advanced form of fertility treatment.
                                 It includes all fertility treatments in which eggs and sperm or embryos are handled outside of the body with the
                                 aim of achieving a pregnancy.</p>
@@ -42,7 +42,7 @@ export default function Ivfdetails() {
                         </div>
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
-         open:shadow-lg p-6 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
+         open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
                         <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             What is involved in and IVF Cycle?
                         </summary>
@@ -268,7 +268,7 @@ export default function Ivfdetails() {
                         </div>
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
-         open:shadow-lg p-6 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
+         open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
                         <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             What is an individual treatment attempt?
                         </summary>
@@ -279,7 +279,7 @@ export default function Ivfdetails() {
                         </div>
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
-         open:shadow-lg p-6 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
+         open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
                         <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             What is a complete egg retrival cycle?
                         </summary>
@@ -295,7 +295,7 @@ export default function Ivfdetails() {
                         </div>
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
-         open:shadow-lg p-6 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
+         open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
                         <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             IVF in Nepal?
                         </summary>
