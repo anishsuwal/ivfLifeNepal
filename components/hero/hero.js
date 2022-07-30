@@ -58,7 +58,7 @@ export default function Hero() {
                         </div>
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="flex-1 shadow-lg mt-5 w-full ">
-                                <input className=" ring-2 uppercase
+                                <input className=" border border-green-600 uppercase
                     rounded-lg w-full py-2 px-4  text-black  text-xs lg:text-sm" placeholder="Enter Your Name Here"
                                     id="name" name='name' type="text" onChange={e => setName(e.target.value)} />
                                 {
