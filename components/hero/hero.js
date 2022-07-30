@@ -45,7 +45,7 @@ export default function Hero() {
                     <p className="md:flex hidden md:text-xs 2xl:text-lg pt-5">Before you get started, learn about what&apos;s involved
                         <br />in IVF treatment and different types of IVF cycles.</p>
                 </div>
-                <div className="flex  p-5  lg:p-10 mt-20 lg:mt-0 opacity-70 items-center justify-center  
+                <div className="flex  p-5  lg:p-10 mt-28 lg:mt-0 opacity-70 items-center justify-center  
              bg-slate-50 ">
                     <div className="flex flex-col md:items-center mb-6  w-fit    items-center justify-center text-center ">
                         <div className=" pb-5">
@@ -68,7 +68,7 @@ export default function Hero() {
                                 }
                             </div>
                             <div className="flex-1 shadow-lg mt-5  w-full">
-                                <input className=" ring-2
+                                <input className=" border border-green-600 
                     rounded-lg  w-full py-2 px-4  text-black  text-xs lg:text-sm" placeholder="Please Enter Valid Email Address"
                                     id="email" name='email' type="text" onChange={e => setEmail(e.target.value)} />
                                 {
@@ -78,7 +78,7 @@ export default function Hero() {
                                 }
                             </div>
                             <div className="flex-1 shadow-lg mt-5  w-full">
-                                <input className=" ring-2
+                                <input className=" border border-green-600 
                     rounded-lg  w-full py-2 px-4  text-black text-xs lg:text-sm " placeholder=" Country Code + Contact Number"
                                     id="number" name='phnumber' type="number" onChange={e => setPhnumber(e.target.value)} />
                                 {
@@ -88,7 +88,7 @@ export default function Hero() {
                                 }
                             </div>
                             <div className="flex-1 shadow-lg mt-5  w-full">
-                                <textarea className=" ring-2
+                                <textarea className=" border border-green-600 
                     rounded-lg  w-full py-2 px-4  text-black  text-xs lg:text-sm" placeholder="Enter Your Message Here"
                                     id="message" name='message' type="text" onChange={e => setMessage(e.target.value)} />
                                 {

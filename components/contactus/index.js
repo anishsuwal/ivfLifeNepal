@@ -72,8 +72,8 @@ export default function ContactUs() {
                             Get Free Doctor Consultation
                         </p>
                         <form ref={form} onSubmit={sendEmail}>
-                            <input className=" ring-green-600 
-                                ring-1
+                            <input className=" border-green-600 
+                                border 
                     rounded-lg w-full py-2 px-4 mt-5 text-black  text-xs lg:text-sm uppercase" placeholder="Enter Your Name Here"
                                 id="name" name='name' type="text" onChange={e => setName(e.target.value)} />
                             {
@@ -82,8 +82,8 @@ export default function ContactUs() {
                                     : ""
                             }
 
-                            <input className=" ring-green-600 
-                                ring-1
+                            <input className=" border-green-600 
+                                border 
                     rounded-lg  w-full mt-5 py-2 px-4  text-black  text-xs lg:text-sm" placeholder="Please Enter Valid Email Address"
                                 id="email" name='email' type="text" onChange={e => setEmail(e.target.value)} />
                             {
@@ -91,8 +91,8 @@ export default function ContactUs() {
                                     <p className="  text-red-600 font-semibold text-xs ">*Enter The Valid Email Address</p>
                                     : ""
                             }
-                            <input className=" ring-green-600 
-                                ring-1
+                            <input className=" border-green-600 
+                                border 
                     rounded-lg  w-full py-2 mt-5  px-4  text-black text-xs lg:text-sm " placeholder=" Country Code + Contact Number"
                                 id="number" name='phnumber' type="number" onChange={e => setPhnumber(e.target.value)} />
                             {
@@ -112,8 +112,8 @@ export default function ContactUs() {
                                 ease-in-out
                                 rounded-lg
                                 m-0
-                                ring-green-600 
-                                ring-1" placeholder="Enter Your Message Here"
+                                border-green-600 
+                                border " placeholder="Enter Your Message Here"
                                 id="message" name='message' type="text" onChange={e => setMessage(e.target.value)} />
                             {
                                 fieldError && message.length == 0 ?

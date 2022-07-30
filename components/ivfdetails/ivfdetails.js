@@ -21,7 +21,7 @@ export default function Ivfdetails() {
                 <div className="flex flex-col md:px-10  bg-white shadow-2xl rounded-lg m-5  md:p-5 p-2">
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
          open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
-                        <summary className="leading-6 text-slate-900 dark:text-white font-semibold  
+                        <summary className="leading-6 text-slate-900  font-semibold  
                 text-xs md:text-sm lg:text-xl select-none hover:text-green-600  cursor-pointer transition-all duration-1000 
                 overflow-hidden ">
                             What is IVF?
@@ -43,7 +43,7 @@ export default function Ivfdetails() {
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
          open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
-                        <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
+                        <summary className="leading-6 text-slate-900 hover:text-green-600  font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             What is involved in and IVF Cycle?
                         </summary>
                         <div className="mt-5  text-xs md:text-sm  leading-6  text-justify shadow-lg p-5 ring-1 rounded-lg">
@@ -269,7 +269,7 @@ export default function Ivfdetails() {
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
          open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
-                        <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
+                        <summary className="leading-6 text-slate-900 hover:text-green-600  font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             What is an individual treatment attempt?
                         </summary>
                         <div className="mt-5  text-xs md:text-sm  leading-6  text-justify shadow-lg p-5 ring-1 rounded-lg">
@@ -280,7 +280,7 @@ export default function Ivfdetails() {
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
          open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
-                        <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
+                        <summary className="leading-6 text-slate-900 hover:text-green-600  font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             What is a complete egg retrival cycle?
                         </summary>
                         <div className="mt-5  text-xs md:text-sm  leading-6  text-justify shadow-lg p-5 ring-1 rounded-lg">
@@ -296,7 +296,7 @@ export default function Ivfdetails() {
                     </details>
                     <details className="md:px-20  open:bg-white text-center  border mt-5  open:ring-1 open:ring-black/5
          open:shadow-lg md:p-6 p-2 rounded-lg transform-gpu delay-75 duration-100 ease-in-out ">
-                        <summary className="leading-6 text-slate-900 hover:text-green-600 dark:text-white font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
+                        <summary className="leading-6 text-slate-900 hover:text-green-600  font-semibold  text-xs md:text-sm lg:text-xl select-none  cursor-pointer">
                             IVF in Nepal?
                         </summary>
                         <div className="mt-5  text-xs md:text-sm  leading-6  text-justify shadow-lg p-5 ring-1 rounded-lg">
