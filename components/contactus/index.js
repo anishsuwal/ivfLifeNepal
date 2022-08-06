@@ -38,6 +38,11 @@ export default function ContactUs() {
         }
         sendEmailx(form, "template_4q7cnaa")
         e.target.reset()
+        setName('')
+        setEmail('')
+        setPhnumber('')
+        setMessage('')
+        setFieldError(false)
     };
 
 

@@ -71,6 +71,23 @@ export default function Calculate() {
         }
         sendEmailx(form, "template_lpzdgo6")
         e.target.reset()
+
+
+
+        setFemaleAge('')
+        setMaleAge('')
+        setbeforePregnant('')
+        setMaleInfertility('NO')
+        setEndometriosis('NO')
+        setTubalDisease('NO')
+        setOtherTest('NO')
+        setTestResult('')
+        setIvfTest('')
+        setName('')
+        setEmail('')
+        setPhnumber('')
+        setMessage('')
+        setFieldError(false)
     };
     return (
 
@@ -286,7 +303,7 @@ export default function Calculate() {
                             <div className=" w-full md:w-1/2    mt-5 ">
                                 <textarea
                                     rows="4"
-                                    className="block p-2.5 
+                                    className="block p-2.5 md:h-full
                                 w-full
                                 text-sm
                                 bg-clip-padding 

@@ -17,12 +17,12 @@ export default function Navbar() {
   return (
     <div className=" font-Montserrat  top-0 left-0 sticky  z-50 bg-white">
      
-      <div className='shadow-md  top-0 left-0 sticky  z-50 border-b xl:px-32'>
+      <div className='shadow-md  top-0 left-0 sticky  z-50 border-b xl:px-32 px-5'>
         <div className='flex items-center justify-between'>
           <div className='font-bold text-lg cursor-pointer flex items-center 
                 text-gray-800'>
-            <div className="flex  items-center flex-shrink-0  text-green-900 font-bold  ">
-              <a href="#home">
+            <div className="flex mt-2 items-center flex-shrink-0  text-green-900 font-bold  ">
+              <a href="#home" className='mr-3 items-center'>
                 <Image
                   alt="ATB"
                   src={logo}
@@ -34,14 +34,15 @@ export default function Navbar() {
               ivfLife Nepal
             </div>
           </div>
-          <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer lg:hidden'>
+          <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 cursor-pointer lg:hidden'>
             <button name={open ? 'close' : 'menu'}><div className="w-5 h-1 bg-gray-600 mb-1"></div>
               <div className="w-5 h-1 bg-gray-600 mb-1"></div>
               <div className="w-5 h-1 bg-gray-600"></div></button>
           </div>
           <ul className={`lg:flex  lg:items-center lg:pb-0 pb-12 absolute 
        lg:static   lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0
-        transition-all duration-500 ease-in ${open ? 'top-20 bg-white text-center lg:pr-5 mt-5 shadow-lg  ' : 'top-[-490px] lg:pr-5 shadow-lg bg-transparent text-center'}`}>
+        transition-all duration-500 ease-in ${open ? 'top-20 bg-white text-center lg:pr-5 mt-5 shadow-lg  '
+         : 'top-[-490px] lg:pr-5 shadow-lg bg-transparent text-center'}`}>
             {
               Links.map((link) => (
                 <li key={link.name} className='lg:ml-5  text-xs  2xl:text-sm lg:my-0 my-7  font-medium'>

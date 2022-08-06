@@ -12,8 +12,8 @@ export default function Footer() {
         <footer>
             <div className="border-t-2  mt-10">
                 <div className="flex justify-between items-center text-center  xl:ml-32 mb-5  text-green-600 font-bold  ">
-                    <div className="text-left items-center justify-center">
-                        <a href="#home-id">
+                    <div className="text-left items-center justify-center mt-2">
+                        <a href="#home-id" >
                             <Image
                                 alt="ATB"
                                 src={logo}
