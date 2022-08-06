@@ -18,8 +18,8 @@ export default function Footer() {
                                 alt="ATB"
                                 src={logo}
                                 layout="fixed"
-                                width={96}
-                                height={96} priority
+                                width={150}
+                                height={100} priority
                             />
                         </a>
                     </div>
