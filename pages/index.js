@@ -34,6 +34,7 @@ export default function Home() {
         <Videos />
         <ContactUs />
         <Footer />
+        <script src="//code.tidio.co/bf2qibc8nhdy0m0jfbcfpezikdydrq6g.js" async></script>
       </div>
 
 
