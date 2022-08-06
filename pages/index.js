@@ -11,6 +11,8 @@ import ContactUs from '../components/contactus'
 import { BsFillTelephoneForwardFill } from 'react-icons/bs'
 import { FaBusinessTime } from 'react-icons/fa'
 import { IoMdMail } from 'react-icons/io'
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+
 
 export default function Home() {
   return (
@@ -34,9 +36,10 @@ export default function Home() {
         <Videos />
         <ContactUs />
         <Footer />
-        <script src="//code.tidio.co/bf2qibc8nhdy0m0jfbcfpezikdydrq6g.js" async></script>
       </div>
-
+      <TawkMessengerReact
+                propertyId="62ee3d5b37898912e9618fcb"
+                widgetId="1g9p9vca3"/>
 
 
     </>
