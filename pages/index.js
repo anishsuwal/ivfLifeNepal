@@ -23,7 +23,7 @@ export default function Home() {
           <p>Welcome to a Professional IVF Health Center</p>
         </div>
         <div className=" flex md:flex-row flex-col justify-between text-xs 2xl:text-sm  md:gap-x-5 p-5 ">
-          <span className="  inline-flex items-center md:border-r lg:pr-5"><BsFillTelephoneForwardFill className='mr-2 text-green-600' /> +977 - 97482 64521</span>
+          <span className="  inline-flex items-center md:border-r lg:pr-5"><BsFillTelephoneForwardFill className='mr-2 text-green-600' /> +977 - 9828 113 159</span>
           <span className="inline-flex items-center md:border-r lg:pr-5"><FaBusinessTime className='mr-2 text-green-600' /> 10:00 AM - 6:00 PM (Sun-Fri)</span>
           <span className="inline-flex items-center "><IoMdMail className='mr-2 text-green-600' /> <a href="#">ivflifenepal@gmail.com</a></span>
         </div>
