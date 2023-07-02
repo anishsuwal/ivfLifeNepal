@@ -111,7 +111,7 @@ export default function Videos() {
                 </div>
                 <div className='mt-5  items-center  '>
               <a href="https://www.youtube.com/@Dr-anupama-suwal-gurung/videos" target="_blank" rel="noreferrer" 
-              className=' text-lg font-bold rounded-lg border p-3 bg-green-300'>
+              className=' text-white text-lg font-bold rounded-lg border p-3 bg-green-300'>
             More Videos
 
                 </a>
