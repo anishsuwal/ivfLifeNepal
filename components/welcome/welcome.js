@@ -26,7 +26,12 @@ export default function Welcome() {
                             </div>
                             <div className="p-8 ">
                                 <p className="mt-2 text-black  text-sm lg:text-xl text-justify">
-                                Motherhood is a journey of love, sacrifice, and immeasurable joy. From the first kicks to the tender moments of holding your child, every step reflects the incredible power of a mother's love. In sleepless nights and endless diaper changes, you discover strength you never knew you had. Your words become their guiding light, and your support the foundation for their dreams. Motherhood isn't easy, but the moments of wonder and independence make every sacrifice worth it. As a nurturer, teacher, and role model, your love knows no bounds. Thank you, incredible mothers, for the love, sacrifices, and beautiful souls you raise. Embrace this transformative gift.
+                                Motherhood is a journey of love, sacrifice, and immeasurable joy. From the first kicks to the tender moments of holding your child,
+                                 every step reflects the incredible power of a mother&apos;s love. In sleepless nights and endless diaper changes, you discover 
+                                 strength you never knew you had. Your words become their guiding light, and your support the foundation for their dreams.
+                                  Motherhood isn&apos;t easy, but the moments of wonder and independence make every sacrifice worth it. As a nurturer, teacher,
+                                   and role model, your love knows no bounds. Thank you, incredible mothers, for the love, sacrifices, and beautiful souls you raise.
+                                    Embrace this transformative gift.
                                 </p>
                             </div>
                         </div>
