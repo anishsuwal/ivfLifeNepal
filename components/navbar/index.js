@@ -12,19 +12,21 @@ export default function Navbar() {
     { name: " Calculate Cost", link: "#calculate" },
     { name: " Videos", link: "#videos" },
     { name: "Contact us", link: "#contactus-id" },
+    { name: "Meet Our Team", link: "#team-id" },
+
   ];
   let [open, setOpen] = useState(false);
   return (
     <div className=" font-Montserrat  top-0 left-0 sticky  z-50 bg-white">
      
-      <div className='shadow-md  top-0 left-0 sticky  z-50 border-b xl:px-32 px-5'>
+      <div className='shadow-md  top-0 left-0 sticky  z-50 border-b xl:px-24 px-5'>
         <div className='flex items-center justify-between'>
           <div className='font-bold text-lg cursor-pointer flex items-center 
                 text-gray-800'>
             <div className="flex mt-2 items-center flex-shrink-0  text-green-900 font-bold  ">
               <a href="#home" className='mr-3 items-center'>
                 <Image
-                  alt="ATB"
+                  alt="IVFLIFENEPAL"
                   src={logo}
                   layout="fixed"
                   width={150}

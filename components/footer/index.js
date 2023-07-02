@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className="text-left items-center justify-center mt-2">
                         <a href="#home-id" >
                             <Image
-                                alt="ATB"
+                                alt="IVFLIFENEPAL"
                                 src={logo}
                                 layout="fixed"
                                 width={150}
@@ -28,7 +28,7 @@ export default function Footer() {
                         <a href="#home">
                             <Image className=" rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center "
 
-                                alt="ATB"
+                                alt="IVFLIFENEPAL"
                                 src={scrollup}
                                 layout="fixed" priority
                             />

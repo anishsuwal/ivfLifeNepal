@@ -31,7 +31,7 @@ export default function Testimonials() {
                         <div className="md:flex items-center justify-center text-center">
                             <div className="md:shrink-0">
                                 <Image className="h-48 w-full object-cover md:h-full md:w-48"
-                                    alt="ATB"
+                                    alt="IVFLIFENEPAL"
                                     src={Testimonial1}
                                     layout="fixed"
                                     height={300}
@@ -49,7 +49,7 @@ export default function Testimonials() {
                         <div className="md:flex items-center justify-center text-center">
                             <div className="md:shrink-0">
                                 <Image className="h-48 w-full object-cover md:h-full md:w-48"
-                                    alt="ATB"
+                                    alt="IVFLIFENEPAL"
                                     src={Testimonial3}
                                     layout="fixed"
                                     height={300}
@@ -68,7 +68,7 @@ export default function Testimonials() {
                         <div className="md:flex items-center justify-center text-center">
                             <div className="md:shrink-0">
                                 <Image className="h-48 w-full object-cover md:h-full md:w-48"
-                                    alt="ATB"
+                                    alt="IVFLIFENEPAL"
                                     src={Testimonial2}
                                     layout="fixed"
                                     height={300}

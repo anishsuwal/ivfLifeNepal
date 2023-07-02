@@ -23,7 +23,7 @@ export default function Videos() {
         gap-5 p-2 mt-5 text-bold  shadow-2xl bg-white rounded-lg">
           <div className='border-2 p-2 bg-green-50'>
             {
-              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=P27waC05Hdk&t=160s' width={'100%'} height={'360px'} />
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=P27waC05Hdk&t=160s' width={'100%'} height={'200px'} />
 
             }
             <div className='mt-5'>
@@ -34,7 +34,7 @@ export default function Videos() {
 
           <div className='border-2 p-2 bg-green-50'>
             {
-              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=v1M5ZqTIeTw' width={'100%'} height={'360px'} />
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=v1M5ZqTIeTw' width={'100%'} height={'200px'} />
 
             }
             <div className='mt-5'>
@@ -44,7 +44,7 @@ export default function Videos() {
           </div>
           <div className='border-2 p-2 bg-green-50'>
             {
-              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=GeigYib39Rs' width={'100%'} height={'360px'} />
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=GeigYib39Rs' width={'100%'} height={'200px'} />
 
             }
             <div className='mt-5'>
@@ -55,7 +55,7 @@ export default function Videos() {
           </div>
           <div className='border-2 p-2 bg-green-50'>
             {
-              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=3jkxdfj5PeY' width={'100%'} height={'360px'} />
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=3jkxdfj5PeY' width={'100%'} height={'200px'} />
 
             }
             <div className='mt-5'>
@@ -63,7 +63,59 @@ export default function Videos() {
                 48-Year-Old Woman Delivers a Baby </a>
             </div>
           </div>
-        </div>
+          <div className='border-2 p-2 bg-green-50'>
+            {
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=bslSF89n-2M' width={'100%'} height={'200px'} />
+
+            }
+            <div className='mt-5'>
+              <a href="https://www.youtube.com/watch?v=bslSF89n-2M" target="_blank" rel="noreferrer" className=' text-sm font-semibold '>
+              Best IVF services in Nepal
+</a>
+            </div>
+          </div>
+          <div className='border-2 p-2 bg-green-50'>
+            {
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=flOCcHVfWw4' width={'100%'} height={'200px'} />
+
+            }
+            <div className='mt-5'>
+              <a href="https://www.youtube.com/watch?v=flOCcHVfWw4" target="_blank" rel="noreferrer" className=' text-sm font-semibold '>
+              Basics Of Tests And Treatment For Infertility 
+</a>
+            </div>
+          </div>
+          <div className='border-2 p-2 bg-green-50'>
+            {
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=LZHWpM5dJIE' width={'100%'} height={'200px'} />
+
+            }
+            <div className='mt-5'>
+              <a href="https://www.youtube.com/watch?v=LZHWpM5dJIE" target="_blank" rel="noreferrer" className=' text-sm font-semibold '>
+              Pregnancy after Hysteroscopic resection 
+</a>
+            </div>
+          </div>
+          <div className='border-2 p-2 bg-green-50'>
+            {
+              hasWindow && <ReactPlayer url='https://www.youtube.com/watch?v=o_J10mfXYlI&t=2s' width={'100%'} height={'200px'} />
+
+            }
+            <div className='mt-5'>
+              <a href="https://www.youtube.com/watch?v=o_J10mfXYlI&t=2s" target="_blank" rel="noreferrer" className=' text-sm font-semibold '>
+              ICSI in IVF
+</a>
+            </div>
+            
+          </div>
+                </div>
+                <div className='mt-5  items-center  '>
+              <a href="https://www.youtube.com/@Dr-anupama-suwal-gurung/videos" target="_blank" rel="noreferrer" 
+              className=' text-lg font-bold rounded-lg border p-3 bg-green-300'>
+            More Videos
+
+                </a>
+            </div> 
       </div>
     </section>
   )

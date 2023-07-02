@@ -55,7 +55,7 @@ export default function Hero() {
                     <div className="flex flex-col md:items-center mb-6  w-fit    items-center justify-center text-center ">
                         <div className=" pb-5">
                             <p className="  font-bold text-lg lg:text-2xl text-red-600 ">
-                                100%  GUARANTEED IVF
+                            Leading the Way in<br></br> Exceptional Fertility Solutions
                             </p>
                             <p className="  font-bold lg:text-lg mt-5 text-black ">
                                 Get Cost and Procedure Details

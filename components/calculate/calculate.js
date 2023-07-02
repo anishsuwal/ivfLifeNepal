@@ -325,7 +325,8 @@ export default function Calculate() {
                         <div className="flex p-5 w-full  items-center justify-center text-center ">
 
                             <button className=" border bg-green-600 
-                    rounded-lg py-2 px-10  text-xs lg:text-sm text-white shadow-2xl shadow-black hover:bg-green-300 hover:text-green-600 "
+                    rounded-lg py-2 px-10  text-xs lg:text-sm text-white shadow-2xl shadow-black
+                     hover:bg-green-300 hover:text-green-600 "
                             >
                                 Click Here To Get The Details ...
                             </button>

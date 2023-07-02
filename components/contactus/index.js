@@ -3,6 +3,15 @@
 
 import { useRef, useState } from 'react';
 import { sendEmailx } from '../email/sendmail';
+import { BsFacebook } from "react-icons/bs";
+import { TfiYoutube } from "react-icons/tfi";
+import { PiTiktokLogoFill } from "react-icons/pi";
+import { BsInstagram } from "react-icons/bs";
+import { FcGoogle } from "react-icons/fc";
+
+FcGoogle
+
+
 
 
 export default function ContactUs() {
@@ -71,6 +80,49 @@ export default function ContactUs() {
                                 We treat you with the utmost dignity and respect that you deserve. Every clinic has a comfortable and friendly environment that is optimal for fertility treatment. World fertility Services are dedicated to improving the fertility networks and delivering consistently high quality care. If you are looking for a clinic that treats patient with care, you have reached the right place.
                             </p>
                         </div>
+                        <div className="flex flex-rowtext-justify mt-5 gap-14">
+                     
+                            <div className='flex mt-20'>    
+                                <a href="https://www.facebook.com/AnupamaSuwalGurung/" target="_blank" rel="noreferrer" 
+                        >
+                            <BsFacebook className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={45} color="#1093f4" 
+                        />
+                            </a>
+                            </div>
+                            <div className='flex mt-20'>    
+                                <a href="https://dr-anupama-suwal-gurung-vf-infertility-specialist.business.site/" target="_blank" rel="noreferrer" 
+                        >
+                            <FcGoogle className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={50} 
+                        />
+                            </a>
+                            </div>
+
+                            <div className='flex mt-20'>    
+                                <a href="https://www.tiktok.com/@anupamasuwal?lang=en" target="_blank" rel="noreferrer" 
+                        >
+                            <PiTiktokLogoFill className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={45} color="#090808" 
+                        />
+                            </a>
+                            </div>
+                            <div className='flex mt-20'>    
+                                <a href="https://www.instagram.com/anupama.suwal/" target="_blank" rel="noreferrer" 
+                        >
+                            <BsInstagram className="cursor-pointer bg-gradient-to-r from-pink-700 via-yellow-300 to-blue-500 
+                            hover:from-pink-400 hover:to-yellow-100 rounded-xl"  fontSize={45}  
+                        />
+                            </a>
+                            </div>
+                            <div className='flex mt-20'>    
+                                <a href="https://www.youtube.com/@Dr-anupama-suwal-gurung/videos" target="_blank" rel="noreferrer" 
+                        >
+                            <TfiYoutube className="cursor-pointer 
+                            hover:bg-red-300 rounded-xl"  fontSize={45}  color="#ff0000" 
+
+                        />
+                            </a>
+                            </div>
+                        </div>
+
                     </div>
                     <div className="flex-1  mt-10 w-full ">
                         <p className="font-semibold text-sm">
@@ -127,7 +179,8 @@ export default function ContactUs() {
                             }
                             <div className="flex p-5 w-full mt-5  items-center justify-center text-center ">
                                 <button className=" border bg-green-600 
-                    rounded-lg py-2 px-10  text-xs lg:text-sm text-white shadow-2xl shadow-black hover:bg-green-300 hover:text-green-600 "
+                    rounded-lg py-2 px-10  text-xs lg:text-sm text-white shadow-2xl
+                     shadow-black hover:bg-green-300 hover:text-green-600 "
                                 >Send Message
                                 </button>
                             </div>
