@@ -7,6 +7,8 @@ import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 export const sendEmailx = (form, template) => {
 
   emailjs.sendForm('service_my9vi4e', template, form.current, '6acPh5wRC-oj5wWza')
+  //emailjs.sendForm('service_javuv7g', template, form.current, 'v7LTZFXKcMFo3po9m')   // This is for Little Shephard
+ 
     .then((result) => {
       console.log(result.text);
       notify();

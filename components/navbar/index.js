@@ -12,6 +12,7 @@ export default function Navbar() {
     { name: " Calculate Cost", link: "#calculate" },
     { name: " Videos", link: "#videos" },
     { name: "Contact us", link: "#contactus-id" },
+    { name: "Our Services", link: "#services-id" },
     { name: "Meet Our Team", link: "#team-id" },
 
   ];
