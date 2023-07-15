@@ -112,7 +112,7 @@ export default function ContactUs() {
                             />
                             </a>
                         </div>
-                        <div className="flex flex-rowtext-justify  gap-14">
+                        <div className="flex flex-rowtext-justify pl-20  gap-14">
                      
                      <div className='flex mt-10'>    
                          <a href="https://www.facebook.com/AnupamaSuwalGurung/" target="_blank" rel="noreferrer" 

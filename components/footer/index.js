@@ -1,5 +1,5 @@
 
-import logo from "../../img/babies.jpg"
+import logo from "../../img/NewLogoIVF.png"
 import Image from "next/image"
 import scrollup from "../../img/scrollup.png"
 
@@ -18,8 +18,8 @@ export default function Footer() {
                                 alt="IVFLIFENEPAL"
                                 src={logo}
                                 layout="fixed"
-                                width={150}
-                                height={100} priority
+                                width={120}
+                                height={120} priority
                             />
                         </a>
                     </div>
