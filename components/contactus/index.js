@@ -8,8 +8,10 @@ import { TfiYoutube } from "react-icons/tfi";
 import { PiTiktokLogoFill } from "react-icons/pi";
 import { BsInstagram } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
+import location from "../../img/location.png"
+import Image from "next/image"
 
-FcGoogle
+
 
 
 
@@ -62,11 +64,9 @@ export default function ContactUs() {
                 <div className="text-center">
                     <p className="text-xl md:text-2xl font-semibold text-center text-green-600">Contact Us</p>
                 </div>
-
-                <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-20 justify-between 
-            text-xs lg:text-sm  md:pl-10  mt-5 border-t p-5 shadow-2xl bg-white rounded-lg text-center">
-                    <div >
-                        <p className="font-semibold text-lg">
+                <div className=' text-xs lg:text-sm  md:pl-10  mt-5 border-t p-5 shadow-2xl bg-white rounded-lg text-center'> 
+                <div className=' p-2 m-2'>
+                <p className="font-semibold text-lg">
                             About the Clinic
                         </p>
                         <div className="text-justify ">
@@ -80,51 +80,87 @@ export default function ContactUs() {
                                 We treat you with the utmost dignity and respect that you deserve. Every clinic has a comfortable and friendly environment that is optimal for fertility treatment. World fertility Services are dedicated to improving the fertility networks and delivering consistently high quality care. If you are looking for a clinic that treats patient with care, you have reached the right place.
                             </p>
                         </div>
-                        <div className="flex flex-rowtext-justify mt-5 gap-14">
-                     
-                            <div className='flex mt-20'>    
-                                <a href="https://www.facebook.com/AnupamaSuwalGurung/" target="_blank" rel="noreferrer" 
-                        >
-                            <BsFacebook className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={45} color="#1093f4" 
-                        />
-                            </a>
-                            </div>
-                            <div className='flex mt-20'>    
-                                <a href="https://dr-anupama-suwal-gurung-vf-infertility-specialist.business.site/" target="_blank" rel="noreferrer" 
-                        >
-                            <FcGoogle className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={50} 
-                        />
-                            </a>
-                            </div>
-
-                            <div className='flex mt-20'>    
-                                <a href="https://www.tiktok.com/@anupamasuwal?lang=en" target="_blank" rel="noreferrer" 
-                        >
-                            <PiTiktokLogoFill className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={45} color="#090808" 
-                        />
-                            </a>
-                            </div>
-                            <div className='flex mt-20'>    
-                                <a href="https://www.instagram.com/anupama.suwal/" target="_blank" rel="noreferrer" 
-                        >
-                            <BsInstagram className="cursor-pointer bg-gradient-to-r from-pink-700 via-yellow-300 to-blue-500 
-                            hover:from-pink-400 hover:to-yellow-100 rounded-xl"  fontSize={45}  
-                        />
-                            </a>
-                            </div>
-                            <div className='flex mt-20'>    
-                                <a href="https://www.youtube.com/@Dr-anupama-suwal-gurung/videos" target="_blank" rel="noreferrer" 
-                        >
-                            <TfiYoutube className="cursor-pointer 
-                            hover:bg-red-300 rounded-xl"  fontSize={45}  color="#ff0000" 
-
-                        />
-                            </a>
-                            </div>
                         </div>
+                       
+                <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-20 justify-between shadow-lg ">
+                    <div className=" p-5">
+                       
+
+                        <div className='flex flex-col gap-2 pl-5'>
+                        <div className="flex-1  mt-5 w-full ">
+                        <p className="font-bold text-xl">
+                        Venus Hospital </p>
+                        <p className="font-semibold text-lg">
+                        Mid Baneshwor , Kathmandu ,Nepal </p>
+                        <p className="font-semibold text-lg">
+
+                        Second floor  </p>   
+                        <p className=" font-semibold text-sm"> +977 - 9761 682 874</p>
+                       
+                        </div>
+                        <div>
+                        <div  className="flex-1 md:shrink-0 items-center justify-center text-center ">
+                        <a href="https://www.google.com/maps/place/Venus+Hospital/@27.6972168,85.3170471,14z/data=!4m6!3m5!1s0x39eb199909cccf51:0x1f6a5f07cb3af4b5!8m2!3d27.6972168!4d85.3376518!16s%2Fg%2F1ttyv4fs?entry=ttu" target="_blank" rel="noreferrer">
+                            <Image  className=" rounded-lg  w-full object-cover md:h-full md:w-48 shadow"
+                                alt="IVFLIFENEPAL"
+                                src={location}
+                                layout="fixed"
+                                height={200}
+                                width={500}
+                                
+                                priority
+                            />
+                            </a>
+                        </div>
+                        <div className="flex flex-rowtext-justify  gap-14">
+                     
+                     <div className='flex mt-10'>    
+                         <a href="https://www.facebook.com/AnupamaSuwalGurung/" target="_blank" rel="noreferrer" 
+                 >
+                     <BsFacebook className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={45} color="#1093f4" 
+                 />
+                     </a>
+                     </div>
+                     <div className='flex mt-10'>    
+                         <a href="https://dr-anupama-suwal-gurung-vf-infertility-specialist.business.site/" target="_blank" rel="noreferrer" 
+                 >
+                     <FcGoogle className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={50} 
+                 />
+                     </a>
+                     </div>
+
+                     <div className='flex mt-10'>    
+                         <a href="https://www.tiktok.com/@anupamasuwal?lang=en" target="_blank" rel="noreferrer" 
+                 >
+                     <PiTiktokLogoFill className="cursor-pointer hover:bg-red-300 rounded-full"  fontSize={45} color="#090808" 
+                 />
+                     </a>
+                     </div>
+                     <div className='flex mt-10'>    
+                         <a href="https://www.instagram.com/anupama.suwal/" target="_blank" rel="noreferrer" 
+                 >
+                     <BsInstagram className="cursor-pointer bg-gradient-to-r from-pink-700 via-yellow-300 to-blue-500 
+                     hover:from-pink-400 hover:to-yellow-100 rounded-xl"  fontSize={45}  
+                 />
+                     </a>
+                     </div>
+                     <div className='flex mt-10'>    
+                         <a href="https://www.youtube.com/@Dr-anupama-suwal-gurung/videos" target="_blank" rel="noreferrer" 
+                 >
+                     <TfiYoutube className="cursor-pointer 
+                     hover:bg-red-300 rounded-xl"  fontSize={45}  color="#ff0000" 
+
+                 />
+                     </a>
+                     </div>
+                 </div>
+                        </div>
+              
+                        </div>
+                    
 
                     </div>
-                    <div className="flex-1  mt-10 w-full ">
+                    <div className="flex-1  mt-10 w-full p-5 ">
                         <p className="font-semibold text-sm">
                             Get Free Doctor Consultation
                         </p>
@@ -186,6 +222,7 @@ export default function ContactUs() {
                             </div>
                         </form>
                     </div>
+                </div>
                 </div>
             </div>
         </section>

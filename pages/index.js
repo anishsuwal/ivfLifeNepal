@@ -15,6 +15,7 @@ import { FaBusinessTime } from 'react-icons/fa'
 import { IoMdMail } from 'react-icons/io'
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import Team from '../components/team'
+import Servies from '../components/services'
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
         <Testimonials />
         <Calculate />
         <Videos />
+        <Servies/>
         <ContactUs />
         <Team/>
         <Footer />
