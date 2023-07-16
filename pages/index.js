@@ -52,10 +52,7 @@ export default function Home() {
         <Calculate />
         <Videos />
         <Servies/>
-<OurSetup/>
-<div className="container mx-auto mt-4">
-      <Carousel images={images} />
-    </div>
+
         <ContactUs />
         <Team/>
         <Footer />
