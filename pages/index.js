@@ -16,7 +16,19 @@ import { IoMdMail } from 'react-icons/io'
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import Team from '../components/team'
 import Servies from '../components/services'
+import Setup from '../components/services'
+import OurSetup from '../components/setup'
+import Carousel from '../components/carousel'
 
+import urmila from "../img/urmila.jpg"
+import merina from "../img/merina.jpg"
+import Pradeep from "../img/Pradeep.jpg"
+import suresh from "../img/Suresh.jpg"
+
+const images = [urmila, merina, suresh, Pradeep].map((url, index) => ({
+  url,
+  description: `Slide ${index}`,
+}));
 
 export default function Home() {
   return (
@@ -32,7 +44,7 @@ export default function Home() {
           <span className="inline-flex items-center "><IoMdMail className='mr-2 text-green-600' /> <a href="#">suwalanupama@gmail.com</a></span>
         </div>
       </div>
-        <Navbar />
+        //<Navbar />
         <Hero />
         <Welcome/>
         <Ivfdetails />
@@ -40,6 +52,10 @@ export default function Home() {
         <Calculate />
         <Videos />
         <Servies/>
+<OurSetup/>
+<div className="container mx-auto mt-4">
+      <Carousel images={images} />
+    </div>
         <ContactUs />
         <Team/>
         <Footer />

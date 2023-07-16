@@ -11,8 +11,11 @@ export default function Navbar() {
     { name: "Testimonials", link: "#testimonials" },
     { name: " Calculate Cost", link: "#calculate" },
     { name: " Videos", link: "#videos" },
-    { name: "Contact us", link: "#contactus-id" },
     { name: "Our Services", link: "#services-id" },
+    { name: "Our Setup", link: "#setup-id" },
+
+
+    { name: "Contact us", link: "#contactus-id" },
     { name: "Meet Our Team", link: "#team-id" },
 
   ];

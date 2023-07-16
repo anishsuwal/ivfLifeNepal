@@ -111,6 +111,25 @@ export default function Team() {
                             <div className="md:shrink-0">
                                 <Image className=" rounded-full bg-slate-500  w-full object-cover md:h-full md:w-48"
                                     alt="IVFLIFENEPAL"
+                                    src={suresh}
+                                    layout="fixed"
+                                    height={200}
+                                    width={200}
+                                    priority
+                                />
+                                <p className="border-t font-bold p-2">Suresh Yadav </p>
+                                <p className=" border-t font-semibold p-2">Senior <br></br> Embryologist</p>
+                                <p className=" border-t font-semibold p-2">7 years of experience</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className=" bg-white  shadow-md overflow-hidden w-full mt-2 ">
+                        <div className="md:flex items-center justify-center text-center">
+                            <div className="md:shrink-0">
+                                <Image className=" rounded-full bg-slate-500  w-full object-cover md:h-full md:w-48"
+                                    alt="IVFLIFENEPAL"
                                     src={Pradeep}
                                     layout="fixed"
                                     height={200}
@@ -144,25 +163,7 @@ export default function Team() {
                         </div>
 
                     </div>
-                    <div className=" bg-white  shadow-md overflow-hidden w-full mt-2 ">
-                        <div className="md:flex items-center justify-center text-center">
-                            <div className="md:shrink-0">
-                                <Image className=" rounded-full bg-slate-500  w-full object-cover md:h-full md:w-48"
-                                    alt="IVFLIFENEPAL"
-                                    src={suresh}
-                                    layout="fixed"
-                                    height={200}
-                                    width={200}
-                                    priority
-                                />
-                                <p className="border-t font-bold p-2">Suresh Yadav </p>
-                                <p className=" border-t font-semibold p-2">Senior <br></br> Embryologist</p>
-                                <p className=" border-t font-semibold p-2">7 years of experience</p>
-                            </div>
-
-                        </div>
-
-                    </div>
+                   
                     <div className=" bg-white  shadow-md overflow-hidden w-full mt-2 pb-3">
                         <div className="md:flex items-center justify-center text-center">
                             <div className="md:shrink-0">
