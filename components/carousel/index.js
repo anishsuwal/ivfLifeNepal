@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react';
 import Image from "next/image"
 
-
 const Carousel = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const carouselRef = useRef(null);
@@ -28,7 +27,13 @@ const Carousel = ({ images }) => {
     };
   
     return (
-      <div className="relative">
+      <section id="setup-id" className="scroll-my-[130px] md:scroll-my-[200px]">
+      <div className="justify-center items-center  text-bold px-5 xl:m-32 mt-10 ">
+
+          <div className="text-center">
+              <p className="text-xl md:text-2xl font-semibold text-center text-green-600">Our IVF clinic setup.   </p>
+          </div>
+      <div className="relative text-xs lg:text-sm    mt-5 border-t p-5 shadow-2xl bg-white rounded-lg text-center ">
         <div
           className="overflow-hidden"
           ref={carouselRef}
@@ -53,26 +58,53 @@ const Carousel = ({ images }) => {
           }}
         >
           <div
-            className="carousel-container"
-            style={{ transform: `translateX(-${currentIndex * (100 / images.length)}%)` }}
+            className="carousel-container "
+            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
             {images.map((image, index) => (
-              <div key={index} className="carousel-slide">
-               <Image
-                    key={index}
-                    src={image.url}
-                    alt={`Slide ${index}`}
-                    className="carousel-slide"
-                    width={500}
-                    height={300}
-                    />
-                <p className="carousel-description">{image.description}</p>
-              </div>
+                            <div key={index} className="carousel-slide">
+                  <p className="carousel-description text-4xl font-bold p-2 text-left">{image.description}</p>
+
+
+              <Image
+                key={index}
+                src={image.url}
+                alt={`Slide ${index}`}
+                className="carousel-slide"
+                width={1660}
+                height={650}                
+              />
+                            </div>
+
+
             ))}
           </div>
         </div>
-        {/* Rest of the component code... */}
+        <div className="absolute bottom-10 left-0 right-0  flex justify-center">
+          {images.map((_, index) => (
+            <div
+              key={index}
+              className={`w-3 h-3 rounded-full mx-1 ${
+                index === currentIndex ? 'bg-white' : 'bg-gray-300'
+              }`}
+            />
+          ))}
+        </div>
+        <button
+          className="absolute top-1/2 left-10 transform -translate-y-1/2 text-white text-[90px]"
+          onClick={prevSlide}
+        >
+          &#8249;
+        </button>
+        <button
+          className="absolute top-1/2 right-10 transform -translate-y-1/2 text-white text-[90px]"
+          onClick={nextSlide}
+        >
+          &#8250;
+        </button>
       </div>
+      </div>
+</section>
     );
   };
   

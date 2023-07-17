@@ -16,19 +16,48 @@ import { IoMdMail } from 'react-icons/io'
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import Team from '../components/team'
 import Servies from '../components/services'
-import Setup from '../components/services'
-import OurSetup from '../components/setup'
+
 import Carousel from '../components/carousel'
 
-import urmila from "../img/urmila.jpg"
-import merina from "../img/merina.jpg"
-import Pradeep from "../img/Pradeep.jpg"
-import suresh from "../img/Suresh.jpg"
+import entrance from "../img/officeSetup/entrance.jpg"
+import reception from "../img/officeSetup/reception.jpg"
+import ivfLab from "../img/officeSetup/ivfLab.jpg"
+import opd from "../img/officeSetup/opd.jpg"
+import andrologyLab from "../img/officeSetup/andrologyLab.jpg"
+import counselling from "../img/officeSetup/counselling.jpg"
+import embryologistRoom from "../img/officeSetup/embryologistRoom.jpg"
+import nursingStation from "../img/officeSetup/nursingStation.jpg"
+import operationTheater from "../img/officeSetup/operationTheater.jpg"
+import ovservationRoom from "../img/officeSetup/ovservationRoom.jpg"
+import semenCollectionRoom from "../img/officeSetup/semenCollectionRoom.jpg"
+import ultraSoundRoom from "../img/officeSetup/ultraSoundRoom.jpg"
+import waitingArea from "../img/officeSetup/waitingArea.jpg"
+import vipRoom from "../img/officeSetup/vipRoom.jpg"
 
-const images = [urmila, merina, suresh, Pradeep].map((url, index) => ({
-  url,
-  description: `Slide ${index}`,
-}));
+
+
+
+
+
+
+const images = [
+  { url: entrance, description: 'Entrance' },
+  { url: reception, description: 'Reception' },
+  { url: waitingArea, description: 'Waiting Area' },
+  { url: ivfLab, description: 'Ivf Lab' },
+  { url: opd, description: 'OPD' },
+  { url: andrologyLab, description: 'Andrology Lab' },
+  { url: counselling, description: 'Counselling Room' },
+  { url: embryologistRoom, description: 'Embryologist Room' },
+  { url: nursingStation, description: 'Nursing Station' },
+  { url: operationTheater, description: 'Operation Theater' },
+  { url: ovservationRoom, description: 'Ovservation Room' },
+  { url: semenCollectionRoom, description: 'Semen Collection Room' },
+  { url: ultraSoundRoom, description: 'UltraSound Room' },
+  { url: vipRoom, description: 'VIP Room' },
+
+
+];
 
 export default function Home() {
   return (
@@ -52,7 +81,9 @@ export default function Home() {
         <Calculate />
         <Videos />
         <Servies/>
-
+    <div className="">
+          <Carousel images={images} />
+        </div>
         <ContactUs />
         <Team/>
         <Footer />
