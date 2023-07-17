@@ -73,7 +73,7 @@ export default function Home() {
           <span className="inline-flex items-center "><IoMdMail className='mr-2 text-green-600' /> <a href="#">suwalanupama@gmail.com</a></span>
         </div>
       </div>
-        //<Navbar />
+        <Navbar />
         <Hero />
         <Welcome/>
         <Ivfdetails />
