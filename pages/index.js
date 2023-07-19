@@ -47,7 +47,7 @@ const images = [
   { url: ivfLab, description: 'Ivf Lab' },
   { url: opd, description: 'OPD' },
   { url: andrologyLab, description: 'Andrology Lab' },
-  { url: counselling, description: 'Counselling Room' },
+  { url: counselling, description: 'Counseling Room' },
   { url: embryologistRoom, description: 'Embryologist Room' },
   { url: nursingStation, description: 'Nursing Station' },
   { url: operationTheater, description: 'Operation Theater' },

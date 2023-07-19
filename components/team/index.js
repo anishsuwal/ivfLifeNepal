@@ -118,7 +118,7 @@ export default function Team() {
                                     priority
                                 />
                                 <p className="border-t font-bold p-2">Suresh Yadav </p>
-                                <p className=" border-t font-semibold p-2">Senior <br></br> Embryologist</p>
+                                <p className=" border-t font-semibold p-2">Senior Clinical<br></br> Embryologist</p>
                                 <p className=" border-t font-semibold p-2">7 years of experience</p>
                             </div>
 
