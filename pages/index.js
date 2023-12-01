@@ -56,7 +56,6 @@ const images = [
   { url: ultraSoundRoom, description: 'UltraSound Room' },
   { url: vipRoom, description: 'VIP Room' },
 
-
 ];
 
 export default function Home() {
